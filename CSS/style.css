@@ -661,7 +661,7 @@ footer img {
 .play {
     color: blue;
 }
-.modal-backdrop
+.modal-backdrop.fade
 {
   position: fixed;
   top: 100%;
