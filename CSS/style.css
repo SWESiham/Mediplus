@@ -7,8 +7,15 @@ header a {
     text-decoration: none;
 }
 
+.Contact {
+    position: absolute;
+    right: 0;
+}
+
 .Contact i {
     color: #1A76D1;
+    margin-right: 5px;
+    margin-left: 5px;
 }
 
 @media(max-width:767px) {
