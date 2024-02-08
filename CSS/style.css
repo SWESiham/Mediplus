@@ -1,0 +1,656 @@
+.Header {
+    position: relative;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+
+.Contact i {
+    color: #1A76D1;
+}
+
+@media(max-width:767px) {
+    .Contact {
+        position: relative;
+        margin-left: -130px;
+    }
+
+    .About {
+        margin-left: 100px;
+    }
+
+    .About a {
+        margin-left: 10px;
+    }
+
+    .carousel-item {
+        height: 300px;
+    }
+
+    .card-item .card {
+        margin-top: 50px;
+    }
+
+    div.card {
+        margin: auto;
+        width: auto;
+        height: 229px;
+        padding: 20px 20px;
+    }
+
+    div.c3 {
+        width: auto;
+        height: 250px;
+    }
+}
+
+@media(max-width:500px) {
+    .Contact {
+        position: relative;
+        margin-left: -50px;
+    }
+
+    .About {
+        margin-left: 100px;
+    }
+
+    .About a {
+        margin-left: 10px;
+    }
+
+}
+
+.carousel-control-next,
+.carousel-control-prev-icon {
+    height: 5%;
+    margin: auto;
+}
+
+.carousel-item {
+    height: 600px;
+}
+
+.card-item {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-item .card {
+    margin-top: -90px;
+    z-index: 1;
+    height: 250px;
+    width: 350px;
+}
+
+.carousel-caption {
+    width: 400px;
+    margin-left: -50px;
+}
+
+@media(max-width:992px) {
+    .carousel-item {
+        height: 390px;
+    }
+
+    .card-item .card {
+        margin-top: 50px;
+    }
+
+    div.card {
+        margin: auto;
+        width: auto;
+        height: 229px;
+        padding: 20px 20px;
+    }
+
+    div.c3 {
+        margin-top: 15px;
+        width: 350px;
+        height: 250px;
+    }
+
+}
+
+@media(max-width:699px) {
+    .carousel-item {
+        height: 220px;
+    }
+
+    .card-item .card {
+        margin-top: 50px;
+    }
+
+    div.card {
+        margin: auto;
+        width: auto;
+        height: 229px;
+        padding: 20px 20px;
+    }
+
+    div.c3 {
+        width: auto;
+        height: 250px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .carousel-caption p,
+    .carousel-caption h1 {
+        color: black;
+    }
+}
+
+@media(min-width:992px) {
+    .carousel-caption {
+        width: 550px;
+        margin-bottom: 150px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 39px;
+        color: rgb(14, 14, 14);
+    }
+
+    .carousel-caption p {
+        color: black;
+    }
+}
+
+.carousel-caption span {
+    color: #1A76D1;
+}
+
+.carousel-caption h1,
+p {
+    color: black;
+}
+
+.offcanvas-right-side {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-color: #1A76D1;
+    border-style: solid;
+    background-color: #1A76D1;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    right: 12px;
+    margin-top: 150px;
+    z-index: 100;
+    padding: 5px 15px;
+    box-shadow: 2px 2px 1px gray;
+    position: fixed;
+}
+
+.offcanvas-right-side:hover {
+    color: white;
+}
+
+.offcanvas-body i {
+    display: block;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.offcanvas-body a {
+    text-decoration: none;
+}
+
+.welcoming {
+    background-image: url(../img/call-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+
+}
+
+.welcoming .btn1 {
+    background-color: white;
+    border-color: rgb(0, 0, 0);
+    color: #000;
+    margin-right: 15px;
+
+}
+
+.welcoming .btn1,
+.btn2 {
+    margin-top: 12px;
+}
+
+.img-overlay {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(26, 118, 209, 0.7);
+    padding: 50px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.accordion {
+    margin-top: 10px;
+}
+
+.popular-diseases {
+    height: 100px;
+    background-color: #eee;
+    text-align: center;
+    margin-top: 40px;
+    padding: 25px;
+    font-family: cursive;
+}
+
+.m-b {
+    direction: rtl;
+}
+
+.Send-con {
+    width: 100%;
+    background-color: #eee;
+    margin-top: 50px;
+    position: relative;
+    padding: 60px;
+}
+
+.tran-title {
+    text-align: center;
+}
+
+.Send-con .btn1 {
+    position: absolute;
+    right: 60px;
+    bottom: 10px;
+}
+
+.prob {
+    background-image: url(../img/testi-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    height: 300px;
+    margin-top: 100px;
+}
+
+.img-card {
+    width: 50px;
+    height: 200px;
+}
+
+.cards-info .card {
+    margin-top: 50px;
+    box-shadow: 0 25px 25px rgb(164, 164, 164);
+}
+
+.card {
+    position: relative;
+}
+
+.cards-info .card::after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+}
+
+.card:hover::after {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    opacity: 0.3;
+}
+
+.cards-info .card::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    bottom: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0;
+    transition: 1s;
+}
+
+.card:hover::before {
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    opacity: 0.3;
+}
+
+.cc:hover {
+    transform: scale(0.9);
+}
+
+.Our-Crew h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.Our-Crew-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cc {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    background-image: url(../img/download\ \(3\).jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    transition: 0.5s;
+    position: relative;
+    margin-top: 50px;
+}
+
+.time {
+    position: absolute;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.cc h4 {
+    color: #ffffff;
+    padding: 30px;
+}
+
+@media(max-width:1000px) {
+    .Our-Crew-body {
+        width: fit-content;
+        display: block;
+        margin: auto;
+    }
+}
+
+.content-crew-body img {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 20px;
+    z-index: 50;
+}
+
+.content-crew-body h5 {
+    position: absolute;
+    z-index: 60;
+    color: #ffffff;
+    margin-top: 260px;
+    margin-left: 120px;
+}
+
+.overlay-cc {
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-crew-body h6 {
+    position: absolute;
+    z-index: 100;
+    margin-top: 290px;
+    margin-left: 130px;
+    color: #ffffff;
+}
+
+.med-news-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.med-news-body {
+    width: 100%;
+    height: 435px;
+    border: 1px solid gray;
+    background-color: #eee;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 1px 1px 25px black;
+}
+
+.med-news-body h1 {
+    padding: 20px 0px 0px 15px;
+}
+
+.med-news-body i {
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.med-news-body p {
+    padding-left: 20px;
+}
+
+.i-n-1 {
+    background-image: url(../img/Diabetes\ concept\ for\ web\ banner\ website\ vector\ image\ on\ VectorStock.jpeg);
+}
+
+.i-n-2 {
+    background-image: url(../img/Ilustración\ De\ Vector\ De\ Guardia\ De\ Epidemia\ De\ Neumonía\ PNG\ \,dibujos\ \ Nuevo\ Coronavirus\,\ Neumonía\,\ Epidemia\ PNG\ y\ Vector\ para\ Descargar\ Gratis\ _\ Pngtree.jpeg);
+}
+
+.i-n-3 {
+    background-image: url(../img/Premium\ Vector\ _\ Disease\ concept\ chest\ pain\ illustration.jpeg);
+    background-repeat: no-repeat;
+}
+
+.i-n-4 {
+    background-image: url(../img/Premium\ Vector\ _\ Coughing\ person.jpeg);
+}
+
+@media (min-width:1000px) {
+    .img-news-1 {
+        width: 400px;
+        height: 100%;
+        background-size: 100%;
+        background-position: center;
+        right: 0;
+        top: 0;
+        position: absolute;
+        transition: 0.9s;
+    }
+
+    .med-news-body:hover .img-news-1 {
+        background-size: 120%;
+        background-position: center;
+
+    }
+
+    .med-news-body:hover .img-news-2 {
+        background-size: 120%;
+        background-position: center;
+
+    }
+
+    .img-news-1::after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        right: 0;
+        border-style: solid;
+        border-width: 435px 100px 1px 300px;
+        border-color: transparent transparent transparent #eeeeee;
+    }
+
+    .med-news-body p {
+        padding-left: 20px;
+        width: 590px;
+    }
+
+    .img-news-2 {
+        width: 400px;
+        height: 100%;
+        background-size: 100%;
+        background-position: center;
+        left: 0;
+        top: 0;
+        position: absolute;
+        transition: 0.9s;
+        overflow: hidden;
+    }
+
+    .img-news-2::after {
+        content: "";
+        position: absolute;
+        bottom: -1px;
+        left: 0;
+        border-style: solid;
+        border-width: 442px 255px 0px 148px;
+        border-color: transparent #eee transparent transparent;
+    }
+
+    .med-body-2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
+
+@media(max-width:1000px) {
+    .med-news-body {
+        width: 100%;
+        height: 533px;
+        margin: auto;
+        overflow-x: auto;
+    }
+
+    .img-news-1,
+    .img-news-2 {
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: absolute;
+        width: 100%;
+        height: 250px;
+        background-size: cover;
+
+    }
+
+    .med-body-1,
+    .med-body-2 {
+        position: absolute;
+        padding-top: 185px;
+        z-index: 1;
+    }
+}
+
+.news-card {
+    margin-top: 100px;
+}
+
+.buttons {
+    position: absolute;
+    width: 390px;
+    margin: 15px;
+}
+
+.buttons a {
+    width: fit-content;
+    height: 35px;
+    background-color: gray;
+    padding: 5px 5px;
+}
+
+.buttons a:hover {
+    color: #ffffff;
+}
+
+.hr-of-news {
+    width: 100px;
+    height: 2px;
+    background-color: #1A76D1;
+    border-radius: 25px;
+    margin: auto;
+    transition: 1s;
+}
+
+.med-news-header:hover .hr-of-news {
+    transform: scale(2, 1);
+}
+
+.Our-Crew-title:hover .hr-of-crew {
+    transform: scale(2, 1);
+}
+
+.hr-of-crew {
+    width: 100px;
+    height: 2px;
+    background-color: #1A76D1;
+    border-radius: 25px;
+    margin: auto;
+    transition: 1s;
+}
+
+.hr-of-body {
+    width: 70px;
+    height: 3px;
+    background-color: #1A76D1;
+    transition: 0.5s;
+    margin-left: 20px;
+}
+
+.med-body-headerrr {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.news-card:hover .hr-of-body {
+    width: 40%;
+}
+
+footer {
+    background-color: #1A76D1;
+    height: fit-content;
+    padding: 50px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-card-1,
+.footer-card-2,
+.footer-card-3 {
+    text-align: center;
+    color: white;
+}
+
+.footer-body a p {
+    color: white;
+}
+
+.footer-body a {
+    text-decoration: none;
+}
+
+.news-card-last {
+    margin-bottom: 50px;
+}
+
+.Podcast {
+    color: red;
+}
+
+.clock {
+    color: rgb(178, 205, 228);
+}
+
+.play {
+    color: blue;
+}
