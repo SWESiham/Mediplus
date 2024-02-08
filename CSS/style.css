@@ -53,7 +53,7 @@ header a {
     }
 }
 
-@media(max-width:500px) {
+@media(max-width:600px) {
     .Contact {
         position: relative;
         margin-left: -50px;
@@ -660,4 +660,8 @@ footer img {
 
 .play {
     color: blue;
+}
+.modal-backdrop.fade{
+    top: 100%;
+    
 }
